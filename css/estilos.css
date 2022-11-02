@@ -1,0 +1,181 @@
+/*Reset*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.lombok{
+    position: absolute; top: 200px; left: 450px;
+    text-align: center;
+    font-family: "brotherBold";
+    font-size: 50px;
+}
+
+.lombok>h2{
+    font-family: "brotherRegular";
+    font-size: 20px;
+    
+}
+
+.lombok>hr{
+    width: 50px;
+}
+
+
+
+/*Máx Widht Para El Container*/
+
+.container{
+    max-width: 1366px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+/*Fonts*/
+
+/*Brother 1816 Regular*/
+@font-face {
+    font-family:"brotherRegular" ;
+    src: url(../fonts/Brother1816-Regular.woff2);
+}
+
+/*Brother 1816 Bold*/
+@font-face {
+    font-family:"brotherBold" ;
+    src: url(../fonts/Brother1816-ExtraBold.woff2);
+}
+
+/*NAV*/
+
+nav{
+    background-color: #E8E8E6;
+    background-image: url(../img/BackgroundPrincipal.webp);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 758px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: baseline;
+    padding: 15px;
+    
+    
+}
+
+nav>h1{
+    font-family: "brotherBold";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+    font-family: "brotherRegular";
+    font-size: larger;
+    
+}
+
+/*Sub con cajita*/
+
+#cajita{
+    border: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+/*Section de las 3 Pictures y el Titulo*/
+
+.pictures{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: start;
+    padding-top: 50px;
+}
+
+.titulo01{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 150px;
+
+}
+
+/*Titulo*/
+
+.subtitle{
+    font-family: "brotherRegular";
+    font-size: larger;
+    color: #333333;
+}
+
+.subtitle>hr{
+    width: 50px;
+    color: #333333;
+}
+
+/*Picture01-03*/
+
+/*Pie de foto*/
+
+figure{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+
+figcaption{
+    
+    text-align: center;
+    height: 100px;
+    
+
+}
+
+section{
+    display: flex;
+    background-color: #E8E8E6;
+}
+
+.barrita{
+    width: 50px;
+    margin-left: 150px;
+}
+
+article{
+   
+    text-align: center;
+    
+}
+
+/*Tercer Section*/
+
+.tercerSection{
+
+    background-color:#E8E8E6;
+    background-image: url(../img/BackgroundFinal.webp);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 758px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: baseline;
+    padding: 15px;
+}
+
